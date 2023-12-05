@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* .card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 20px;
+    border: 20px;
+    padding: 40px 35px ;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+  font-size: 60px;
+    font-weight: 500;
+}
+.weather h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+footer>h3{
+    text-align: center;
+} */
+
+
+
+.card{
+    background:linear-gradient(to top,rgba(44, 135, 141),rgba(83, 64, 155));
+}
+.card .search{
+    padding-top:13px ;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.card .search input{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+.card .search button{
+    border: 0;
+    outline: 0;
+    padding: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.card .search button img{
+    width: 20px;
+    cursor: pointer;
+}
+.weather{
+    text-align: center;
+    margin: 20px 0;
+}
+.weather .temp{
+    margin: 8px 0;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.weather .city{
+    margin: 8px 0;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.details{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 20px;
+    /* margin: 0; */
+}
+.details img{
+    width: 50px;
+    margin-right: 15px;
+}
+.col-1{
+    display: flex;
+}
+.all_humidity{
+    margin-top: 15px;
+}
+.col-2{
+    display: flex;
+    position: absolute;
+    left: 250px;
+}
+.humidity{
+    /* width: 200px; */
+    /* text-align: left; */
+    line-height: 0;
+}
+.wind h5{
+    line-height: 19px;
+    width: 60px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-top: 0;
+    color: white;
+    display: none;
+}
